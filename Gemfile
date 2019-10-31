@@ -27,10 +27,11 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'bulma-rails', '~> 0.6.1'
 gem 'simple_form'
-gem 'devise', '~> 4.4'
+gem 'devise_token_auth'
 gem 'gravatar_image_tag', '~> 1.2'
 gem 'carrierwave'
 gem 'mini_magick'
+gem 'rack-cors', :require => 'rack/cors'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
